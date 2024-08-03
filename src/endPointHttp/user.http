@@ -1,0 +1,27 @@
+### Create user
+POST http://localhost:5000/api/v1/user/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "fid": "123",
+  "username": "Drefgkkkson",
+  "displayName": "Drefjjjgson griuujjjfft",
+  "doiqValue": "doiq?"
+}
+
+### Fetch User
+GET http://localhost:5000/api/v1/user/fetch HTTP/1.1
+
+### Fetch User Live
+GET https://apidoiq-frame-server-lrq3arcga-dotuntoshgmailcoms-projects.vercel.app/api/v1/user/fetch HTTP/1.1
+
+### Fetch User by fid
+GET http://localhost:5000/api/v1/user/fetch/123 HTTP/1.1
+
+### Create user
+PUT http://localhost:5000/api/v1/user/update/1235 HTTP/1.1
+Content-Type: application/json
+
+{
+  "doiqValue": "doiq?"
+}
